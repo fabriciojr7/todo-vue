@@ -4,12 +4,12 @@
     <main class="px-4 py-4">
       <div class="w-full max-w-[800px] m-auto">
         
-        <div class="flex max-md:flex-col items-center justify-center gap-6 mb-6">
+        <div class="flex max-md:flex-col items-center justify-center gap-6 mb-6 px-4">
           <label class="relative">
             <input 
               v-model="taskInput"
               type="text" 
-              class="h-14 w-96 px-4 text-2xl bg-slate-800 border-2 rounded-lg
+              class="h-14 w-full max-w-96 px-4 text-2xl bg-slate-800 border-2 rounded-lg
               border-zinc-100 border-opacity-50 outline-none focus:border-green-500
               transition duration-200 input-task"
             />
